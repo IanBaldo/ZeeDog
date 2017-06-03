@@ -33,6 +33,11 @@ body {
     flex-direction: column;
 }
 
+.header .navbar {
+    min-height: 0;
+    margin-bottom: 0;
+}
+
 .header .SmallBanner {
     background-color: #efefef;
     color: #61666a;
@@ -74,16 +79,26 @@ body {
     height: 80%;
 }
 
+.header .container img {
+    height: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .header .option {
     padding-left: 1em;
     padding-right: 1em;
+    text-align: center;
+    height: 100%;
+    line-height: 5;
 }
 
 /**************************
 *        SEARCHBAR        *
 **************************/
 .searchBar {
-    margin-top: 2em;
+    margin-top: 1em;
     display: flex;
     justify-content: center;
 }
