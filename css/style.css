@@ -1,0 +1,41 @@
+.banner {
+    background-color: lightgray;
+    height: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    FONT-SIZE: smaller;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.banner p {
+    margin: 0;
+}
+
+.header {
+    height: 10%;
+}
+
+.header .logo {
+    height: 5em;
+}
+
+.searchBar {
+    height: 5%;
+}
+
+.main {
+    height: 75%;
+}
+
+.favProds {
+    height: 50%;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: darkgrey;
+}
+
+.social {
+    height: 50%;
+}
