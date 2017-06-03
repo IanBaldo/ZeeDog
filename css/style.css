@@ -1,5 +1,14 @@
+body {
+    color: #61666a;
+}
+
+/**************************
+*          BANNER         *
+**************************/
+
 .banner {
-    background-color: lightgray;
+    background-color: #efefef;
+    color: #61666a;
     height: 4%;
     display: flex;
     justify-content: space-between;
@@ -13,21 +22,87 @@
     margin: 0;
 }
 
+/**************************
+*          HEADER         *
+**************************/
+
 .header {
     height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header .logo {
     height: 5em;
 }
 
-.searchBar {
-    height: 5%;
+.header .option {
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
-.main {
-    height: 75%;
+/**************************
+*        SEARCHBAR        *
+**************************/
+.searchBar {
+    height: 5%;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
 }
+
+.searchBar input {
+    background-color: #efefef;
+    color: black;
+    border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#efefef;
+    height: 3.5em;
+}
+
+.searchBar button {
+    border:0;
+    background:transparent;
+}
+
+.searchBar .input-group-addon {
+    border: 0;
+}
+
+/**************************
+*       MAIN CONTENT      *
+**************************/
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    padding-bottom: 2em;
+}
+
+.main .title {
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 20px;
+}
+
+.main img {
+    width: 80%;
+}
+
+.main p {
+    margin-top: 3em;
+    font-size: 18px;
+    text-align: center;
+}
+
+/**************************
+*        FAV PRODUCTS     *
+**************************/
 
 .favProds {
     height: 50%;
@@ -35,6 +110,10 @@
     border-width: 1px 0px 1px 0px;
     border-color: darkgrey;
 }
+
+/**************************
+*         SOCIAL          *
+**************************/
 
 .social {
     height: 50%;

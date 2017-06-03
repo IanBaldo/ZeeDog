@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div class="banner">
+        <div class="banner hidden-xs">
             <p>FALE COM A GENTE - 3003-0494</p>
             <p>FRETE GRÁTIS PARA TODO BRASIL EM COMPRAS ACIMA DE R$119,00</p>
             <div>
@@ -16,15 +16,39 @@
                 <button class="btn btn-sm btn-link"> CARRINHO</button>
             </div>
         </div>
+        <div class="header">
+            <nav class="navbar navbar-toggleable-md">
+                <button class="navbar-toggler navbar-toggler-left .visible-xs-*" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    X<span class="navbar-toggler-icon"></span>
+                </button>
+                <img class="logo" src="img/logo zeedog.png">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <div class="container">
+                        <div class="option col-xs-12 col-sm-4 col-md-2 col-lg-2"> CACHORROS  <span class="caret"></span></a></div>
+                        <div class="option col-xs-12 col-sm-4 col-md-2 col-lg-2"> GATOS  <span class="caret"></span></a></div>
+                        <div class="option col-xs-12 col-sm-4 col-md-2 col-lg-2"> PESSOAS  <span class="caret"></span></a></div>
+                        <div class="option col-xs-12 col-sm-4 col-md-2 col-lg-2"> LOOKBOOK </div>
+                        <div class="option col-xs-12 col-sm-4 col-md-2 col-lg-2"> QUEM SOMOS  <span class="caret"></span></a></div>
+                        <div class="option col-xs-12 col-sm-4 col-md-2 col-lg-2"> ONDE ENCONTRAR  <span class="caret"></span></a></div>
+                    </div>
+                </div>
+            </nav>
+        </div>
         <div class="container">
-            <div class="header">
-                <img src="img/logo zeedog.png">
-            </div>
             <div class="searchBar">
-            
+                <div class="input-group col-xs-12 col-sm-12 col-sm-8 col-lg-8 ">
+                    <input type="text" class="form-control"  placeholder="O QUE VOCÊ ESTÁ PROCURANDO?" >
+                    <span class="input-group-addon">
+                        <button>
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>  
+                    </span>
+                </div>
             </div>
             <div class="main">
-
+                <span class="title">IVAN E BONO SURFDOG</span>
+                <img src="img/img_01.jpg">
+                <p>Na verdade antes de começarmos a surfar, eu comecei a remar com o Bono em Búzios. Eu havia comprado uma pracha de SUP (Stand Up Paddle) pra aprender a remar e o Bono, como um bom labrador, veio nadando atrás. Coloquei ele em cima da prancha e percebi que dava pra remar com ele junto. A primeira onda veio alguns meses depois na praia do Rosa, em Florianópolis. Eu estava remando com o Bono em direção ao Rosa Norte e percebi que colado as pedras havia umas "marolinhas" quebrando. Consegui entrar num delas e fui reto em direção a praia. Me senti assim, num estado de estrema euforia. Não é que dava pra surfar com o Bono?</p>
             </div>
             <div class="favProds">
 
@@ -33,6 +57,9 @@
 
             </div>
         </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
     </body>
 </html>
