@@ -1,0 +1,448 @@
+body {
+    color: white;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkjrCjrc56Y9kQLWrnYVxruqtdlzeyxghgBqyxIXs6qkprZgLJ");
+}
+
+/**************************
+*          BANNER         *
+**************************/
+
+.banner {
+    background-color: #efefef;
+    color: #61666a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.banner p {
+    margin: 0;
+}
+
+
+/**************************
+*          HEADER         *
+**************************/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header .navbar {
+    min-height: 0;
+    margin-bottom: 0;
+}
+
+.header .SmallBanner {
+    background-color: #efefef;
+    color: #61666a;
+    padding-top: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.header .MenuXS {
+    width: 100%;
+    height: 51px;
+    padding-right: 15px;
+    color: black;
+}
+
+.MenuXS div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.MenuXS button {
+    border: 0;
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    width: 2em;
+}
+
+.MenuXS .cart {
+    font-size: 25px;
+    color: black;
+}
+
+.header .logo {
+    height: 80%;
+}
+
+.header .container img {
+    height: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header .option {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    height: 100%;
+    line-height: 5;
+}
+
+/**************************
+*        SEARCHBAR        *
+**************************/
+.searchBar {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.searchBar input {
+    background-color: #efefef;
+    color: black;
+    border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#efefef;
+    height: 3.5em;
+}
+
+.searchBar button {
+    border:0;
+    background:transparent;
+}
+
+.searchBar .input-group-addon {
+    border: 0;
+}
+
+
+
+/**************************
+*           TOP           *
+**************************/
+
+.top {
+    color: #61666a;
+    background-color: white;
+    border-radius: 4em;
+    margin-top: 3em;
+    overflow: hidden;
+}
+
+.top .lancamento {
+    width: 35%;
+    position: absolute;
+    max-width: 135px;
+}
+
+.top .frase {
+    text-align: center;
+    padding-top: 1em;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* IMAGE DIV */
+
+.mainContent .imageDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*  THUMBNAIL LIST */
+
+.mainContent .imageDiv .thumbnailList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.mainContent .imageDiv .thumbnailList img {
+    height: 50px;
+    margin-bottom: 1em;
+    border: 2px black solid;
+    width: 80%;
+}
+
+
+/* MAIN IMAGE AREA*/
+
+.mainContent .imageDiv .mainImageArea {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.mainContent .imageDiv .mainImageArea img {
+    height: 80%;
+}
+
+/* CATEGORIES LIST */
+
+.mainContent .imageDiv .mainImageArea .categoriesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mainContent .imageDiv .mainImageArea .categoriesList img {
+    height: 70px;
+    margin-left: 1em;
+}
+
+/*  SHOPPING  AREA */
+
+.mainContent .shoppingArea {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* INFO */
+
+.mainContent .shoppingArea .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-top: 3em;
+}
+
+.mainContent .shoppingArea .info .name {
+    flex: 2;
+    width: 100%;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mainContent .shoppingArea .info .price {
+    flex: 1;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.mainContent .shoppingArea .info .form {
+    width: 100%;
+    margin-top: 2em;
+    flex: 2;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.mainContent .shoppingArea .info .form .text {
+    flex: 2;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+
+.mainContent .shoppingArea .info .form .input-group {
+    width: 100%;
+    background-color: darkslategray;
+    border-radius: 4em;
+    padding-left: 0.5em;
+}
+
+.mainContent .shoppingArea .info .form .input-group input {
+    border: 0;
+    background: transparent;
+    color: white;
+}
+
+.mainContent .shoppingArea .info .form .input-group span {
+    background-color: transparent;
+    border: 0;
+}
+
+.mainContent .shoppingArea .info .form .input-group button {
+    border-radius: 4em;
+    background-color: white;
+}
+
+
+.mainContent .shoppingArea .info .buyBtn {
+    background-color: rgba(47,183,166,1);
+    color: white;
+    font-weight: bold;
+}
+
+/* LIST */
+
+.mainContent .shoppingArea .list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #efefef;
+    border-radius: 4em;
+}
+
+.mainContent .shoppingArea .list .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContent .shoppingArea .list .item span {
+    font-size: 2em;
+}
+
+.mainContent .shoppingArea .list .item small {
+    padding-right: 1em;
+    padding-top: 1em;
+    font-size: 0.6em;
+}
+
+
+/**************************
+*          MIDDLE         *
+**************************/
+
+.middle {
+    border-radius: 4em;
+    margin-top: 3em;
+    background-color: white;
+    color: #61666a;
+    overflow: hidden;
+    padding-bottom: 3em;
+}
+
+.middle .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle .about .title {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1em;
+    padding-top: 2em;;
+}
+
+.middle .about .text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.middle .specs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5em;
+}
+
+.middle .specs .image img {
+    height: 260px;
+}
+
+.middle .specs .specList li {
+    font-size: 16px;
+    margin-bottom: 1em;
+    padding-right: 1em;
+}
+
+
+/**************************
+*        FAV PRODUCTS     *
+**************************/
+
+.favProds {
+    margin-top: 3em;
+}
+
+.favProds .header {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.favProds .header .title{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 3em;
+    padding-bottom: 0.5em;
+}
+
+.favProds .productList {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.favProds .product {
+    text-align: center;
+    padding-bottom: 2em;
+    max-width: 60%;
+}
+
+.favProds .product img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4em;
+}
+
+.favProds .product p {
+    font-weight: bold;
+    padding-top: 1em;
+}
+
+
+/**************************
+*        SOCIALSHARE      *
+**************************/
+
+.socialShare {
+    margin-bottom: 4em;
+}
+
+.socialShare .title {
+    padding-top: 2em;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.socialShare .media {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.socialShare img {
+    height: 50px;
+    margin-left: 1em;
+}
+
+
+
