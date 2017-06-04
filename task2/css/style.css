@@ -193,6 +193,9 @@ body {
 
 .mainContent .imageDiv .mainImageArea img {
     height: 80%;
+    max-width: 480px;
+    max-height: 320px;
+    padding-left: 1em;
 }
 
 /* CATEGORIES LIST */
