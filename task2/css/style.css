@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkjrCjrc56Y9kQLWrnYVxruqtdlzeyxghgBqyxIXs6qkprZgLJ");
+    background-image: url("http://il5.picdn.net/shutterstock/videos/18295969/thumb/1.jpg");
 }
 
 /**************************
@@ -343,7 +343,7 @@ body {
     background-color: white;
     color: #61666a;
     overflow: hidden;
-    padding-bottom: 3em;
+    padding-bottom: 8em;
 }
 
 .middle .about {
@@ -370,7 +370,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 5em;
+    margin-top: 7em;
 }
 
 .middle .specs .image img {
